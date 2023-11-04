@@ -1,9 +1,9 @@
-import os
-import pytube
 from pytube import YouTube
 from tkinter import Tk, Label, Entry, Button, StringVar, messagebox, filedialog, PhotoImage
 from threading import Thread
 from fpdf import FPDF
+import os
+import pytube
 
 
 class YouTubeDownloader:
